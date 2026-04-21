@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">https://github.com/JTB1120-ops/SnowHub/blob/main/OPENME.html
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -406,59 +406,56 @@
 
     // GAMES
     const GAMES = [
-      // From games/ folder (numbered)
-      { name:'Brotato',              desc:'Top-down arena shooter roguelite.', url:'games/418.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/366.jpg' },
-      { name:'Cloverpit',            desc:'Dark gambling rogue-lite. Beat the slot machine and escape the pit.', url:'games/342.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/343.jpg' },
-      { name:'Balatro',              desc:'Build insane poker hands with special Joker cards.', url:'games/268.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/195.jpg' },
-      { name:'Plants Vs Zombies 2',  desc:'Defend your lawn against fun-loving zombies across time.', url:'games/92.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/197.jpg' },
-      { name:'Scribblenauts',        desc:'Solve puzzles by summoning objects you write.', url:'games/102.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/226.jpg' },
-      { name:'Sprunki',              desc:'Incredibox but with little furry creatures.', url:'games/101.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/225.jpg' },
-      { name:"Zelda: Majora's Mask", desc:'3 days to stop the moon from crashing.', url:'games/90.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/216.jpg' },
-      { name:'Minecraft 1.12.1',     desc:'World of Color update. Build anything.', url:'games/164.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/291.jpg' },
-      { name:'GTA Vice City',        desc:'80s crime saga in a neon-soaked city.', url:'games/149.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/272.jpg' },
-      { name:'Retro Bowl',           desc:'Football management game.', url:'games/191.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/158.jpg' },
-      { name:'FNAF',                 desc:'Original horror survival.', url:'games/166.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/164.jpg' },
-      { name:'FNAF 2',               desc:'Sequel horror survival.', url:'games/167.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/165.jpg' },
-      { name:'FNAF 3',               desc:'Third installment horror.', url:'games/168.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/166.jpg' },
-      { name:'FNAF 4',               desc:'Nightmare horror survival.', url:'games/169.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/167.jpg' },
-      { name:'Bloons TD 4',          desc:'Tower defense strategy.', url:'games/188.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/161.jpg' },
+      { name:'Brotato',              desc:'Top-down arena shooter roguelite.', url:'games/418.html', image:'https://cdn.cloudflare.steamstatic.com/steam/apps/1942280/header.jpg' },
+      { name:'Cloverpit',            desc:'Dark gambling rogue-lite. Beat the slot machine and escape the pit.', url:'games/342.html', image:'https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/CloverPit_cover.jpeg/250px-CloverPit_cover.jpeg' },
+      { name:'Balatro',              desc:'Build insane poker hands with special Joker cards.', url:'games/268.html', image:'https://cdn.cloudflare.steamstatic.com/steam/apps/2379780/header.jpg' },
+      { name:'Plants Vs Zombies 2',  desc:'Defend your lawn against fun-loving zombies across time.', url:'games/92.html', image:'https://img.utdstc.com/icon/889/533/8895331dfa5d196b0447dae5849a66c663080e5931a36e3909586fae09d5d238:200' },
+      { name:'Scribblenauts',        desc:'Solve puzzles by summoning objects you write.', url:'games/102.html', image:'https://m.media-amazon.com/images/I/71nlFl--0jL._AC_UF1000,1000_QL80_.jpg' },
+      { name:'Sprunki',              desc:'Incredibox but with little furry creatures.', url:'games/101.html', image:'https://imgs.crazygames.com/games/sprunki-itn/cover_16x9-1732009692724.png?metadata=none&quality=60&height=6378' },
+      { name:"Zelda: Majora's Mask", desc:'3 days to stop the moon from crashing.', url:'games/90.html', image:'https://media.gamestop.com/i/gamestop/10118726/The-Legend-of-Zelda-Majoras-Mask---Nintendo-3DS?w=768&h=768&fmt=auto' },
+      { name:'Minecraft 1.12.1',     desc:'World of Color update. Build anything.', url:'games/164.html', image:'https://image.api.playstation.com/vulcan/ap/rnd/202407/0401/670c294ded3baf4fa11068db2ec6758c63f7daeb266a35a1.png' },
+      { name:'GTA Vice City',        desc:'80s crime saga in a neon-soaked city.', url:'games/149.html', image:'https://cdn.cloudflare.steamstatic.com/steam/apps/12110/header.jpg' },
+      { name:'Retro Bowl',           desc:'Football management game.', url:'games/191.html', image:'https://www.thisdaddylife.com/wp-content/uploads/2020/05/Retro-Bowl-Avatar-600px.png' },
+      { name:'FNAF',                 desc:'Original horror survival.', url:'games/166.html', image:'https://cdn.cloudflare.steamstatic.com/steam/apps/319510/header.jpg' },
+      { name:'FNAF 2',               desc:'Sequel horror survival.', url:'games/167.html', image:'https://cdn.cloudflare.steamstatic.com/steam/apps/332800/header.jpg' },
+      { name:'FNAF 3',               desc:'Third installment horror.', url:'games/168.html', image:'https://cdn.cloudflare.steamstatic.com/steam/apps/354140/header.jpg' },
+      { name:'FNAF 4',               desc:'Nightmare horror survival.', url:'games/169.html', image:'https://cdn.cloudflare.steamstatic.com/steam/apps/388090/header.jpg' },
+      { name:'Bloons TD 4',          desc:'Tower defense strategy.', url:'games/188.html', image:'https://imgs.crazygames.com/auto-covers/bloons-tower-defense-4-expansion_1x1.png?format=auto&quality=70&metadata=none' },
       { name:'Tung Sahur Horror',    desc:"Terrifying stealth-horror. Don't get caught.", url:'games/377.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/377.jpg' },
-      { name:'Geometry Dash',        desc:'Rhythm platformer. Jump through spiky obstacles.', url:'games/440.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/417.jpg' },
-      { name:'Learn to Fly 3',       desc:'Help a penguin achieve flight.', url:'games/109.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/233.jpg' },
-      { name:'Lego Batman 2',        desc:'LEGO Batman and DC superheroes in Gotham City.', url:'games/108.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/232.jpg' },
-      { name:'Lego Star Wars',       desc:'All six Star Wars episodes in LEGO form.', url:'games/107.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/231.jpg' },
-      { name:'ULTRAKILL',            desc:'Fast-paced retro-style shooter.', url:'games/48.html', image:'https://raw.githubusercontent.com/NoahsAmazingTutoringHelp/Noahs-Calculus-Tutor/refs/heads/master/images/57.jpg' },
-      { name:'Five Nights at Epstein', desc:'Secret escape game. Navigate mysterious locations.', url:'games/2019.html', image:'' },
-      // From uploaded HTML files (put these in your games/ folder)
-      { name:'Angry Birds',          desc:'Classic slingshot physics game. Smash the pigs.', url:'games/cantcommit65.html', image:'' },
-      { name:'Dashmetry',            desc:'Geometry Dash-style platformer with Unity engine.', url:'games/clDashmetry.html', image:'' },
-      { name:'Eggy Car',             desc:'Hill climbing game. Drive carefully, don\'t drop the egg.', url:'games/cleggycar.html', image:'' },
-      { name:'Five Nights at Yoshi\'s', desc:'FNAF-style horror with Yoshi characters.', url:'games/clfivenightsatyoshis.html', image:'' },
-      { name:'8 Ball Pool',          desc:'Classic flash pool game.', url:'games/cl8ballpool.html', image:'' },
-      { name:'Binding of Isaac',     desc:'Roguelite dungeon crawler with sheep time mod.', url:'games/clbindingofisaccsheeptime.html', image:'' },
-      { name:'BitLife',              desc:'Life simulator. Make choices, live your life.', url:'games/clbitlife.html', image:'' },
-      { name:'Bloons TD 5',          desc:'Tower defense. Pop all the bloons.', url:'games/clbtd5.html', image:'' },
-      { name:'Deltarune',            desc:'RPG sequel to Undertale.', url:'games/cldeltarune.html', image:'' },
-      { name:'Dig to China',         desc:'Dig straight down through the earth.', url:'games/cldigtochina.html', image:'' },
-      { name:'DOOM (DOS)',           desc:'Original 1993 DOOM running in DOSBox.', url:'games/cldoomdos.html', image:'' },
-      { name:'Duck Life 5',          desc:'Train your duck to win races.', url:'games/clducklfe5.html', image:'' },
-      { name:'Duck Life',            desc:'Original duck training game.', url:'games/clducklife.html', image:'' },
-      { name:'Duck Life 2',          desc:'Duck Life world champion edition.', url:'games/clducklife2.html', image:'' },
-      { name:'Ragdoll Archers',      desc:'Physics-based archery with ragdoll characters.', url:'games/clragdollarchers.html', image:'' },
-      { name:'Red Ball',             desc:'Classic platformer. Roll the red ball to the goal.', url:'games/clredball.html', image:'' },
-      { name:'Red Ball 2',           desc:'Red Ball sequel with new levels.', url:'games/clredball2.html', image:'' },
-      { name:'Red Ball 3',           desc:'Third Red Ball adventure.', url:'games/clredball3.html', image:'' },
-      { name:'Red Ball 4',           desc:'Red Ball 4 — stop the evil square robots.', url:'games/clredball4.html', image:'' },
-      { name:'Red Ball 4 Vol.2',     desc:'Red Ball 4 second volume.', url:'games/clredball4vol2.html', image:'' },
-      { name:'Sayori\'s Notebook',   desc:'FNF mod set in the DDLC universe with Sayori.', url:'games/clsayorisnotebook.html', image:'' },
-      { name:'Super Mario 64',       desc:'Classic 3D platformer. Collect stars, save Peach.', url:'games/clsupermario64.html', image:'' },
-      { name:'Vex',                  desc:'Brutal stickman platformer with deadly traps.', url:'games/clvex.html', image:'' },
-      { name:'Vex 2',                desc:'Vex sequel with more levels and traps.', url:'games/clvex2.html', image:'' },
-      { name:'Local Space',          desc:'Space exploration game.', url:'games/LocalSpace.html', image:'' },
-      { name:'Buckshot Roulette',    desc:'Dark tense game of Russian roulette against a demonic dealer.', url:'games/Buckshot_Roulette.html', image:'' },
-      { name:'FNF: Ben Drowned',     desc:'Friday Night Funkin mod vs Ben Drowned.', url:'games/Vs. Ben Drowned.html', image:'' },
-      { name:'FNF: Cartoon Frenzy',  desc:'Friday Night Funkin mod with cartoon characters.', url:'games/Vs. Cartoon Frenzy.html', image:'' },
-      { name:'FNF: Dorkly Sonic',    desc:'Friday Night Funkin vs Dorkly Sonic.', url:'games/Vs. Funkin\' For Hire Dorkly Sonic.html', image:'' },
+      { name:'Geometry Dash',        desc:'Rhythm platformer. Jump through spiky obstacles.', url:'games/440.html', image:'https://cdn.cloudflare.steamstatic.com/steam/apps/322170/header.jpg' },
+      { name:'Learn to Fly 3',       desc:'Help a penguin achieve flight.', url:'games/109.html', image:'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/589870/capsule_616x353.jpg?t=1643409029' },
+      { name:'Lego Batman 2',        desc:'LEGO Batman and DC superheroes in Gotham City.', url:'games/108.html', image:'https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/213330/capsule_616x353.jpg?t=1755185006' },
+      { name:'Lego Star Wars',       desc:'All six Star Wars episodes in LEGO form.', url:'games/107.html', image:'https://cdn.cloudflare.steamstatic.com/steam/apps/32440/header.jpg' },
+      { name:'ULTRAKILL',            desc:'Fast-paced retro-style shooter.', url:'games/48.html', image:'https://cdn.cloudflare.steamstatic.com/steam/apps/1229490/header.jpg' },
+      { name:'Five Nights at Epstein', desc:'Secret escape game. Navigate mysterious locations.', url:'games/2019.html', image:'https://cdn.cloudflare.steamstatic.com/steam/apps/319510/header.jpg' },
+      { name:'Angry Birds',          desc:'Classic slingshot physics game. Smash the pigs.', url:'games/cantcommit65.html', image:'https://upload.wikimedia.org/wikipedia/en/2/2d/Angry_Birds_promo_art.png' },
+      { name:'Dashmetry',            desc:'Geometry Dash-style Unity platformer.', url:'games/clDashmetry.html', image:'https://cdn.cloudflare.steamstatic.com/steam/apps/322170/header.jpg' },
+      { name:'Eggy Car',             desc:"Hill climbing game. Don't drop the egg.", url:'games/cleggycar.html', image:'https://www.coolmathgames.com/sites/default/files/eggy-car-game-icon_0.png' },
+      { name:"Five Nights at Yoshi's", desc:'FNAF-style horror with Yoshi characters.', url:'games/clfivenightsatyoshis.html', image:'https://images.steamusercontent.com/ugc/1856048221318414883/DF230FB721D30161C15EA577E9EB9F3F19869891/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false' },
+      { name:'8 Ball Pool',          desc:'Classic flash pool game.', url:'games/cl8ballpool.html', image:'https://cdn.moogold.com/2024/10/8-ball-pool-324x324.jpg' },
+      { name:'Binding of Isaac',     desc:'Roguelite dungeon crawler.', url:'games/clbindingofisaccsheeptime.html', image:'https://cdn.cloudflare.steamstatic.com/steam/apps/250900/header.jpg' },
+      { name:'BitLife',              desc:'Life simulator. Make choices, live your life.', url:'games/clbitlife.html', image:'https://play-lh.googleusercontent.com/fUM-UyywXxjC8soxAZdIlxJrlRRXmql8wkE426SHzft4lJycSKVd2jCYQQX1BEG9Xw' },
+      { name:'Bloons TD 5',          desc:'Tower defense. Pop all the bloons.', url:'games/clbtd5.html', image:'https://cdn.cloudflare.steamstatic.com/steam/apps/306020/header.jpg' },
+      { name:'Deltarune',            desc:'RPG sequel to Undertale.', url:'games/cldeltarune.html', image:'https://catholicgamereviews.com/wp-content/uploads/2025/11/deltarune-key-art-1.png' },
+      { name:'Dig to China',         desc:'Dig straight down through the earth.', url:'games/cldigtochina.html', image:'https://picon.ngfiles.com/636000/flash_636228_card.webp?f1726763590' },
+      { name:'DOOM (DOS)',           desc:'Original 1993 DOOM running in DOSBox.', url:'games/cldoomdos.html', image:'https://cdn.cloudflare.steamstatic.com/steam/apps/2280/header.jpg' },
+      { name:'Duck Life 5',          desc:'Train your duck to win races.', url:'games/clducklfe5.html', image:'https://play-lh.googleusercontent.com/JQqSn7wuCj0SxBqpBThNI33qCR9gwY0str2TIAnu-m_xrVCgZk3IPxYK2S7zC9WG0ig' },
+      { name:'Duck Life',            desc:'Original duck training game.', url:'games/clducklife.html', image:'https://play-lh.googleusercontent.com/et1ZmER2Ae0yaNGcRXQ2x39ykZsz2x0Q-zHk5ylLE39XDAFOIYQ_symcExp4QogJggQ=w526-h296-rw' },
+      { name:'Duck Life 2',          desc:'Duck Life world champion edition.', url:'games/clducklife2.html', image:'https://www.coolmathgames.com/sites/default/files/styles/mobile_game_image/public/DuckLife2_OG-logo.jpg.webp?itok=8mjscVTi' },
+      { name:'Ragdoll Archers',      desc:'Physics-based archery with ragdoll characters.', url:'games/clragdollarchers.html', image:'https://imgs.crazygames.com/ragdoll-archers_1x1/20250926080758/ragdoll-archers_1x1-cover?format=auto&quality=100&metadata=none&width=1200' },
+      { name:'Red Ball',             desc:'Classic platformer. Roll the red ball to the goal.', url:'games/clredball.html', image:'https://i1.sndcdn.com/artworks-CEHKYB2f4uzP1wcC-rykwcw-t500x500.jpg' },
+      { name:'Red Ball 2',           desc:'Red Ball sequel with new levels.', url:'games/clredball2.html', image:'https://i1.sndcdn.com/artworks-CEHKYB2f4uzP1wcC-rykwcw-t500x500.jpg' },
+      { name:'Red Ball 3',           desc:'Third Red Ball adventure.', url:'games/clredball3.html', image:'https://i1.sndcdn.com/artworks-CEHKYB2f4uzP1wcC-rykwcw-t500x500.jpg' },
+      { name:'Red Ball 4',           desc:'Stop the evil square robots.', url:'games/clredball4.html', image:'https://i1.sndcdn.com/artworks-CEHKYB2f4uzP1wcC-rykwcw-t500x500.jpg' },
+      { name:'Red Ball 4 Vol.2',     desc:'Red Ball 4 second volume.', url:'games/clredball4vol2.html', image:'https://i1.sndcdn.com/artworks-CEHKYB2f4uzP1wcC-rykwcw-t500x500.jpg' },
+      { name:"Sayori's Notebook",    desc:'FNF mod set in the DDLC universe.', url:'games/clsayorisnotebook.html', image:'https://images.gamebanana.com/img/ss/mods/633d024d3156b.jpg' },
+      { name:'Super Mario 64',       desc:'Classic 3D platformer. Collect stars, save Peach.', url:'games/clsupermario64.html', image:'https://m.media-amazon.com/images/M/MV5BY2QzZTVhYjctZWMyNy00MDlhLThhYTktZDg2M2EwNTE3ZDZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg' },
+      { name:'Vex',                  desc:'Brutal stickman platformer with deadly traps.', url:'games/clvex.html', image:'https://picon.ngfiles.com/609000/flash_609073_card.webp?f1689251481' },
+      { name:'Vex 2',                desc:'Vex sequel with more levels and traps.', url:'games/clvex2.html', image:'https://picon.ngfiles.com/609000/flash_609073_card.webp?f1689251481' },
+      { name:'Buckshot Roulette',    desc:'Dark tense Russian roulette against a demonic dealer.', url:'games/Buckshot_Roulette.html', image:'https://cdn.cloudflare.steamstatic.com/steam/apps/2835570/header.jpg' },
+      { name:'FNF: Ben Drowned',     desc:'Friday Night Funkin vs Ben Drowned.', url:'games/Vs. Ben Drowned.html', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTprEDhlO9RpdONLK_8BEAjHDi_0eD3YYBJYw&s' },
+      { name:'FNF: Cartoon Frenzy',  desc:'Friday Night Funkin with cartoon characters.', url:'games/Vs. Cartoon Frenzy.html', image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTprEDhlO9RpdONLK_8BEAjHDi_0eD3YYBJYw&s' },
+      { name:"FNF: Dorkly Sonic",    desc:'Friday Night Funkin vs Dorkly Sonic.', url:"games/Vs. Funkin' For Hire Dorkly Sonic.html", image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTprEDhlO9RpdONLK_8BEAjHDi_0eD3YYBJYw&s' },
     ];
 
     function openGame(g) {
@@ -514,7 +511,7 @@
     }
 
     // AI CHAT
-    const API_KEY = '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';
+    const API_KEY = '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';
     const chatHistory = [];
 
     async function sendMsg() {
@@ -538,27 +535,12 @@
       msgs.scrollTop = msgs.scrollHeight;
 
       try {
-        const res = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${API_KEY}`
-          },
-          body: JSON.stringify({
-            model: 'openrouter/free',
-            messages: [
-              { role:'system', content:'You are Snowy AI, a calm and helpful assistant inside a cozy anime-themed hub called Snowy Hub. Keep responses concise and warm.' },
-              ...chatHistory
-            ]
-          })
-        });
-        const data = await res.json();
-        console.log('OpenRouter response:', JSON.stringify(data));
-        const reply = data.choices?.[0]?.message?.content || data.error?.message || JSON.stringify(data);
+        await new Promise(r => setTimeout(r, 500));
+        const reply = 'No.';
         chatHistory.push({ role:'assistant', content: reply });
         typingBubble.innerHTML = `<div class="ai-label">✦ Snowy AI</div>${reply}`;
       } catch(e) {
-        typingBubble.innerHTML = `<div class="ai-label">✦ Snowy AI</div>Error: ${e.message}`;
+        typingBubble.innerHTML = `<div class="ai-label">✦ Snowy AI</div>No.`;
       }
 
       msgs.scrollTop = msgs.scrollHeight;
